@@ -11,12 +11,12 @@ import java.util.Iterator;
 public class AreaSumCalculator extends AreaCalculator {
 	
 	public void calculate() {
-		areasum = 0.0;
+		areacal = 0.0;
 		Iterator<Shape> it = shapes.iterator();
 		
 		while(it.hasNext()) {
 			Shape curShape = it.next();
-			areasum += curShape.area();
+			areacal += curShape.area();
 		}
 	}
 	

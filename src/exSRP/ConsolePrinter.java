@@ -2,15 +2,13 @@ package exSRP;
 
 public class ConsolePrinter {
 	
-	private AreaCalculator asc;
+	private AreaCalculator ac;
 	
 	public void setAreaCalculator(AreaCalculator ac) {
-		this.asc = ac;
+		this.ac = ac;
 	}
 	
-	public void printSum() {
-		System.out.println("도형의 합계는 " + asc.getAreaSum());
+	public void print() {
+		System.out.println(ac.getAreaCal());
 	}
-	
-	
 }

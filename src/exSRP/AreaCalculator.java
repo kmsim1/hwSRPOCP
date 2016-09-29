@@ -5,7 +5,7 @@ import java.util.Iterator;
 
 public abstract class AreaCalculator {
 	protected ArrayList<Shape> shapes = new ArrayList<Shape>();
-	protected double areasum;
+	protected double areacal;
 	
 	public void addShape(Shape s) {
 		shapes.add(s);
@@ -13,7 +13,7 @@ public abstract class AreaCalculator {
 	
 	public abstract void calculate();
 	
-	public double getAreaSum() {
-		return areasum;
+	public double getAreaCal() {
+		return areacal;
 	}
 }
