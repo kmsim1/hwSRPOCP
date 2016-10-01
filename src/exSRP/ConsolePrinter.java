@@ -7,8 +7,11 @@ public class ConsolePrinter {
 	public void setAreaCalculator(AreaCalculator ac) {
 		this.ac = ac;
 	}
-	
 	public void print() {
-		System.out.println(ac.getAreaCal());
+		System.out.println(ac.getAreacal());
 	}
 }
+
+
+
+

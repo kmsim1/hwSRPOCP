@@ -2,8 +2,7 @@ package exSRP;
 
 public class Triangle extends Shape{
 
-	private double w;
-	private double h;
+	private double w,h;
 	
 	public Triangle(double w, double h) {
 		this.w = w;
@@ -11,6 +10,6 @@ public class Triangle extends Shape{
 	}
 	@Override
 	public double area() {
-		return w*h;
+		return w*h*0.5;
 	}
 }

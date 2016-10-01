@@ -8,7 +8,6 @@ public class Rect extends Shape{
 		this.w = w;
 		this.h = h;
 	}
-
 	@Override
 	public double area() {
 		return this.w * this.h;

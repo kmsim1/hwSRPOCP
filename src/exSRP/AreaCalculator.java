@@ -7,13 +7,17 @@ public abstract class AreaCalculator {
 	protected ArrayList<Shape> shapes = new ArrayList<Shape>();
 	protected double areacal;
 	
+	public abstract void setAreacal();
+	public abstract void setOperand();
+	public final void calculate() {
+		setAreacal();
+		setOperand();
+	}
+	
 	public void addShape(Shape s) {
 		shapes.add(s);
 	}
-	
-	public abstract void calculate();
-	
-	public double getAreaCal() {
+	public double getAreacal() {
 		return areacal;
 	}
 }
